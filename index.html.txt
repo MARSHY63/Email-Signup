@@ -72,9 +72,9 @@
 <body>
   <h1>Be the First to Know</h1>
   <p>Join the waitlist and get early access.</p>
-  <form action="https://docs.google.com/forms/d/e/FORM_ID/formResponse" method="POST" target="_blank">
-    <!-- Replace 'FORM_ID' with your actual Google Form ID -->
-    <input type="email" name="entry.1234567890" placeholder="Your email address" required />
+  <form action="https://formspree.io/f/mnqlgbzw" method="POST">
+    <!-- Replace the Formspree URL with your unique URL from your Formspree account -->
+    <input type="email" name="email" placeholder="Your email address" required />
     <button type="submit">Notify Me</button>
   </form>
   <footer>© 2025 Your Name</footer>
