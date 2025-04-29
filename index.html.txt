@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Join the Waitlist</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #121212;
+      color: #f1f1f1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      color: #cccccc;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    input[type="email"] {
+      padding: 0.75rem;
+      width: 250px;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      background-color: #1e1e1e;
+      color: #fff;
+    }
+
+    button {
+      padding: 0.75rem 1.5rem;
+      background-color: #00bcd4;
+      color: #000;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #00acc1;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h1>Be the First to Know</h1>
+  <p>Join the waitlist and get early access.</p>
+  <form action="#" method="POST">
+    <input type="email" name="email" placeholder="Your email address" required />
+    <button type="submit">Notify Me</button>
+  </form>
+  <footer>© 2025 Your Name</footer>
+</body>
+</html>
